@@ -1,57 +1,47 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <head>
-        <title>Ebmedded WebAR Experience through echoAR</title>
-        <style>
-            background {
-                top: 0;
-                left: 0;
-                position: fixed;
-                width: 100%;
-                height: 100%;
-                background-color: rgb(0, 45, 100);
-                z-index: -1;
-            },
-            h1 {
-                position: relative;
-                color: white;
-                text-align: center;
-                font-size: 5vh;
-		            font-family: Arial, Helvetica, sans-serif;
-            }
-            iframe {
-                position: relative;
-                width: 100%;
-                height: 75vh;
-            }
-        </style>
-    </head> */}
-    <body>
-	    <div id="background"></div>
-        <h1>Ebmedded WebAR Experience through echoAR</h1>
-          <iframe
-            src="https://console.echoAR.xyz/webar?key=shrill-surf-7760&entry=376f72fb-4fd3-4192-8bd2-aa3e875297e7"
-            title="echoAR WebAR iframe element">
-          </iframe>
-    </body>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <body className="body">
+	    <div className="background">
+        <h1 className="h1">
+            L-I-N-K-S
+        </h1>
+        <h2 className="h2">
+          A tool to keep kids connected from home 
+        </h2>
+        <iframe
+          scrolling="no"
+          frameBorder="0"
+          className="iframe"
+          src="https://console.echoAR.xyz/webar?key=solitary-firefly-5042&entry=2409d41f-8fe8-4e13-98c6-85dc3b3bf396"
+          title="echoAR WebAR iframe element">
+        </iframe>
+        <br></br>
+        <br></br>
+        <div className="backgroundTwo">
+          <p className="p">
+            With kids having to take class from home, they're deprived of the opportunity to
+          </p>
+          <p className="p">
+            develop the soft skills most of us were able to discover playing and interacting
+          </p>
+          <p className="p">
+            with other kids. This gives them an alternative way to stay connected and 
+          </p>
+          <p className="p">
+            interact with their friends in an intimate way that other platforms don't offer. 
+          </p>
+          <p className="p">
+            (Fact check^)
+          </p>
+        </div>
+        <p className="p">
+
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      </div>
+    </body>
     </div>
   );
 }
